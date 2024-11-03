@@ -1,0 +1,275 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Pragya Singh - Short Films</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfolio webpage of Pragya Singh" />
+  <meta name="keywords" content="portfolio,website,personal website,github,projects,computer science and engineering" />
+  <meta name="author" content="Pragya Singh" />
+  <!--quora icon-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+  <link rel="shortcut icon" href="logo.png">
+  <link rel="icon" type="image/png"
+    href="kisspng-wechat-avatar-icon-line-v-word-5a715fe8a66dc6.6173848315173795606817.png">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
+  <!-- Animate.css -->
+  <link rel="stylesheet" href="css/animate.css">
+  <!-- Icomoon Icon Fonts-->
+  <link rel="stylesheet" href="css/icomoon.css">
+  <!-- Bootstrap  -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <!-- Flexslider  -->
+  <link rel="stylesheet" href="css/flexslider.css">
+  <!-- Flaticons  -->
+  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+  <!-- Owl Carousel -->
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <!-- Theme style  -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Modernizr JS -->
+  <script src="js/modernizr-2.6.2.min.js"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-165333769-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-165333769-1');
+    function openVideoModal(videoUrl) {
+      const modal = document.getElementById("videoModal");
+      const iframe = document.getElementById("videoFrame");
+      iframe.src = videoUrl + "?autoplay=1"; // Automatically start playback
+      modal.style.display = "block";
+    }
+
+    function closeVideoModal() {
+      const modal = document.getElementById("videoModal");
+      const iframe = document.getElementById("videoFrame");
+      iframe.src = ""; // Stop playback by clearing the src
+      modal.style.display = "none";
+    }
+
+  </script>
+</head>
+<style>
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 10000000;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9); /* Darker overlay for cinema effect */
+  }
+  .modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90vw;
+    height: 90vh;
+    max-width: 1200px; /* Limit to a reasonable max width for larger screens */
+    max-height: 90vh;
+    background-color: transparent;
+  }
+</style>
+<style>
+  .github-corner:hover .octo-arm {
+    animation: octocat-wave 560ms ease-in-out
+  }
+
+  @keyframes octocat-wave {
+
+    0%,
+    100% {
+      transform: rotate(0)
+    }
+
+    20%,
+    60% {
+      transform: rotate(-25deg)
+    }
+
+    40%,
+    80% {
+      transform: rotate(10deg)
+    }
+  }
+
+  @media (max-width:500px) {
+    .github-corner:hover .octo-arm {
+      animation: none
+    }
+
+    .github-corner .octo-arm {
+      animation: octocat-wave 560ms ease-in-out
+    }
+  }
+</style>
+
+<body id="particles-js">
+  
+  <div id="colorlib-page">
+    
+    <div class="container-wrap">
+      <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar"
+        aria-expanded="false" aria-controls="navbar"><i></i></a>
+      <aside id="colorlib-aside" role="complementary" class="border js-fullheight">
+        <div class="text-center">
+          <div class="author-img" style="background-image: url(images/link.png);"></div>
+          <h1 id="colorlib-logo"><a>Pragya Singh</a></h1>
+          <p><strong>Filmmaker</strong></p>
+        </div>
+      </aside>
+      <div id="colorlib-main">
+        <section class="colorlib-about" data-section="about">
+          
+          <div class="colorlib-narrow-content">
+            <div class="row">
+              <div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+                <div class="col-md-12">
+                  <div class="about-desc">
+                    <h2>Short Films</h2>
+                    <hr>
+                    <img src="shortfilm.png" alt="intro" class="img-responsive" style="max-height: 600px; width: auto;">
+
+                    <article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
+                      <br>
+                      <ul class="fa-ul mb-0">
+                        <!-- <article class="timeline-entry animate-box" data-animate-effect="fadeInRight"> -->
+                        <li>
+                          <i class="fa-li fa fa-check"></i>
+                          <div
+                            onmouseover="document.querySelector('#colorlib-main > section.colorlib-skills > div > div > div:nth-child(3) > article > ul > li:nth-child(1) > div > a > div:nth-child(1)').style.backgroundColor='#78C2AD'"
+                            onmouseout="document.querySelector('#colorlib-main > section.colorlib-skills > div > div > div:nth-child(3) > article > ul > li:nth-child(1) > div > a > div:nth-child(1)').style.backgroundColor=''">
+                            <a href="#" style="text-decoration:none;"
+                              onclick="openVideoModal('https://www.youtube.com/embed/bt-d4XvBCxE')">
+                              <div>
+                                <h4 class="mb-3">Short Film: Asur </h4>
+                              </div>
+                              <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-3">
+                                <div id="divMain">
+                                  <div id='left-div' class="resume-content">
+                                    <!-- Thumbnail, replaced with YouTube video thumbnail -->
+                                    <img style='float:left; margin:0 10px; cursor:pointer;' width='300px;'
+                                      class='img-fluid' src='https://img.youtube.com/vi/bt-d4XvBCxE/hqdefault.jpg'
+                                      onclick="openVideoModal('https://www.youtube.com/embed/bt-d4XvBCxE')">
+                                  </div>
+                                  <div id='right-div' class='resume-content'>
+                                    <div class="subheading mb-0">
+                                      <p> A gripping tale that dives into the complex theme of revenge. Through this short film, I explored the intense emotions and moral conflicts that drive a person to seek retribution, aiming to keep viewers on the edge of their seats from start to finish.<br>I wrote, directed and edited this film.</p>
+                                    </div>
+                                    <div class="mb-0">
+                                      <span class='badge badge-secondary'>Drama</span>
+                                      <span class='badge badge-secondary'>Cinematography</span>
+                                      <span class='badge badge-secondary'>Editing</span>
+                                      <span class='badge badge-secondary'>Short Film</span>
+                                      <span class='badge badge-secondary'>Revenge</span>
+                                      <span class='badge badge-secondary'>Directing</span>
+                                    </div>
+                                    <br>
+                                    <!-- Optional buttons for more links or social media -->
+                                  </div>
+                                </div>
+                              </div>
+                            </a>
+                            
+                            
+                          </div>
+                        </li>
+                        <br>
+                    </article>
+                    <br>
+                    <article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
+                      <br>
+                      <ul class="fa-ul mb-0">
+                        <!-- <article class="timeline-entry animate-box" data-animate-effect="fadeInRight"> -->
+                        <li>
+                          <i class="fa-li fa fa-check"></i>
+                          <div
+                            onmouseover="document.querySelector('#colorlib-main > section.colorlib-skills > div > div > div:nth-child(3) > article > ul > li:nth-child(1) > div > a > div:nth-child(1)').style.backgroundColor='#78C2AD'"
+                            onmouseout="document.querySelector('#colorlib-main > section.colorlib-skills > div > div > div:nth-child(3) > article > ul > li:nth-child(1) > div > a > div:nth-child(1)').style.backgroundColor=''">
+                            <a href="#" style="text-decoration:none;"
+                              onclick="openVideoModal('https://www.youtube.com/embed/uZcYbbn_VTc')">
+                              <div>
+                                <h4 class="mb-3">Short Film: Beyond Wealth</h4>
+                              </div>
+                              <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-3">
+                                <div id="divMain">
+                                  <div id='left-div' class="resume-content">
+                                    <!-- Thumbnail, replaced with YouTube video thumbnail -->
+                                    <img style='float:left; margin:0 10px; cursor:pointer;' width='300px;'
+                                      class='img-fluid' src='https://img.youtube.com/vi/uZcYbbn_VTc/hqdefault.jpg'
+                                      onclick="openVideoModal('https://www.youtube.com/embed/uZcYbbn_VTc')">
+                                  </div>
+                                  <div id='right-div' class='resume-content'>
+                                    <div class="subheading mb-0">
+                                      <p>This short film addresses the pressing issue of homelessness by comparing the lives of two individuals from vastly different backgrounds—a wealthy person and a person experiencing homelessness. The film aims to challenge viewers to consider the social disparities around us and reflect on the value of human connection beyond material wealth.  </p>
+                                    </div>
+                                    <div class="mb-0">
+                                      <span class='badge badge-secondary'>Filmmaking</span>
+                                      <span class='badge badge-secondary'>Cinematography</span>
+                                      <span class='badge badge-secondary'>Editing</span>
+                                      <span class='badge badge-secondary'>Short Film</span>
+                                      <span class='badge badge-secondary'>Homelessness</span>
+                                      <span class='badge badge-secondary'>Social message</span>
+
+                                    </div>
+                                    <br>
+                                    <!-- Optional buttons for more links or social media -->
+                                  </div>
+                                </div>
+                              </div>
+                            </a>
+                            
+                            
+                          </div>
+                        </li>
+                        <br>
+                    </article>
+                    <br><br><br>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    
+    </div>
+  </div>
+  <div id="videoModal" class="modal" onclick="closeVideoModal()">
+    <div class="modal-content">
+      <iframe id="videoFrame" width="100%" height="100%" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+  </div>
+  <!-- End #projects -->
+  <!-- jQuery -->
+  <script src="js/jquery.min.js"></script>
+  <!-- jQuery Easing -->
+  <script src="js/jquery.easing.1.3.js"></script>
+  <!-- Bootstrap -->
+  <script src="js/bootstrap.min.js"></script>
+  <!-- Waypoints -->
+  <script src="js/jquery.waypoints.min.js"></script>
+  <!-- Flexslider -->
+  <script src="js/jquery.flexslider-min.js"></script>
+  <!-- Owl carousel -->
+  <script src="js/owl.carousel.min.js"></script>
+  <!-- Counters -->
+  <script src="js/jquery.countTo.js"></script>
+  <!-- MAIN JS -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
